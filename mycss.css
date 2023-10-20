@@ -1,0 +1,64 @@
+body {
+	padding-top: 50px;
+	font-family: Verdana;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a {
+	color: mediumblue;
+}
+
+#contactinfo ul {
+	list-style-type: none;
+}
+
+.venue {
+	color: forestgreen;
+}
+
+.navbar .container {
+	margin-left: 15px;
+}
+
+.navbar-header {
+	min-height: 50px;
+}
+
+.navbar-nav li a {
+	line-height: 30px;
+}
+
+#page-content {
+	margin-top: 60px;
+}
+
+#personal {
+	text-align:center;
+}
+
+#personal img {
+	clip-path: circle();
+	margin: auto;
+    display: block;
+}
+
+
+#bio {
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.attribution {
+	margin-top: 30px;	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.attribution, .attribution a {
+	color:#b5bec9;
+}
