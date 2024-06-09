@@ -44,11 +44,14 @@ a {
     display: block;
 }
 
-
 #bio {
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.coauthors a{
+	color:#595959;
 }
 
 .attribution {
@@ -61,4 +64,14 @@ a {
 
 .attribution, .attribution a {
 	color:#b5bec9;
+}
+dl {
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 1rem;
+}
+
+dd {
+  /* undo browser defaults */
+  margin-left: 0;
 }
