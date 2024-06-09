@@ -41,7 +41,7 @@ a {
 #personal img {
 	clip-path: circle();
 	margin: auto;
-    display: block;
+	display: block;
 }
 
 #bio {
@@ -66,12 +66,11 @@ a {
 	color:#b5bec9;
 }
 dl {
-  display: grid;
-  grid-template-columns: min-content auto;
-  gap: 1rem;
+	display: grid;
+	grid-template-columns: min-content auto;
+  	gap: 1rem;
 }
 
 dd {
-  /* undo browser defaults */
-  margin-left: 0;
+	margin-left: 0;
 }
